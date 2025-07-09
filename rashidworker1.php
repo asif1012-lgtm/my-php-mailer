@@ -4,9 +4,9 @@ use PHPMailer\PHPMailer\Exception;
 
 
 
-require 'Exception.php';
-require 'PHPMailer.php';
-require 'SMTP.php';
+require 'PHPMailer/Exception.php';
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Initialize an empty body for the email
